@@ -1,0 +1,45 @@
+.popular{
+  width: 100%;
+}
+.items{
+  width: 300px;
+  position: relative;
+}
+.popular .box {
+  background-color: #fff;
+  margin: 15px 15px 15px 0;
+  
+}
+.popular .images {
+  position: relative;
+  height: 100%;
+}
+.popular img {
+  width: 100%;
+  height: 170px;
+  object-fit: cover;
+}
+.popular .img {
+  max-height: 200px;
+
+}
+.popular .text h1 {
+  padding: 20px 0 0 0px;
+  margin: 0;
+}
+.popular .date {
+  margin-bottom: 5px;
+}
+
+.popular .comment {
+  padding: 5px 0 0 20px;
+  margin-top: 5px;
+}
+.fa-circle-right{
+  position: absolute;
+  color: #fff;
+  font-size: 23px;
+  bottom: 0;
+  right: 0;
+  padding: 5px;
+}
